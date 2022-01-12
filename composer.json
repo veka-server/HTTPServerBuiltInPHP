@@ -1,0 +1,20 @@
+{
+    "name": "veka-server/HTTPServerBuiltInPHP",
+    "description": "Hack middleware pour les fichiers static avec le serveur HTTP de PHP !!! NE PAS UTILSER EN PROD !!!",
+    "license": "MIT",
+    "keywords": ["middleware","minimalist","PSR-15","hack", "php http serveur", "builtin"],
+    "authors": [
+        {
+            "name": "Vanhaezebrouck Nicolas",
+            "email": "contact@veka-server.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VekaServer\\HTTPServerBuiltInPHP\\" : "src/"
+        }
+    },
+    "require": {
+        "psr/http-message": "^1.0"
+    }
+}
